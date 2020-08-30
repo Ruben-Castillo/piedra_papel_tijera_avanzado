@@ -16,11 +16,8 @@ def opcion_salir?(jugada)
     jugada==4
 end
 def cambia_turno(turno)
-    if turno==1
-        2
-    else
-        1
-    end
+    1 if turno==2
+    2 if turno==1
 end
 def selecciona_ganador(opcion_jugador1,opcion_jugador2)
     gana_jugador1=[-2,1]
